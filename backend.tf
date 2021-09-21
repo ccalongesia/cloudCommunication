@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    subscription_id = "aa746f8d-136f-4bbc-b703-1b2ac5236889"
-    resource_group_name  = "tsti2weursgnicgenntfw001"
-    storage_account_name = "tsti2weustanicgenntfw004"
+    subscription_id = "25d5e1b3-cc0b-474f-a59c-dbbce1d20dc1"
+    resource_group_name  = "RG-SGT-Terraform"
+    storage_account_name = "staterraformsgt"
     container_name       = "tfstate"
     key                  = "hub-nva-firewall.tfstate"
   }
